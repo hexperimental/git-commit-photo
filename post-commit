@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Smile"
+
+DATE_STRING=`date '+%Y-%m-%d %H:%M:%S'`
+
+#make dir if it doesn't exist
+TARGET_DIR="/Users/${USER}/.gitphotos"
+if [ ! -d "${TARGET_DIR}" ]; then
+  mkdir -p "${TARGET_DIR}"
+fi
+
+#take the photo
+imagesnap -q -w 1 "${TARGET_DIR}/${USER}-${DATE_STRING}.jpg"
+
+echo "...Happy Days"
+
