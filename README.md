@@ -31,4 +31,3 @@ To make this work in existing repos just run
 git init
 ```
 
-
