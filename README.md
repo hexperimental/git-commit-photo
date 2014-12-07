@@ -1,5 +1,5 @@
 # Git Commit Photo
-** Set of scripts and settings to capture a snapshot from the isight camera after a git commit **
+** Post-commit git hook to capture a snapshot from the isight camera after a git commit **
 
 
 ## How
